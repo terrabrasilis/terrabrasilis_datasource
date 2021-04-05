@@ -5,15 +5,15 @@
 [general]
 name=TerraBrasilis Data Source
 qgisMinimumVersion=3.0
-description=The plugin enable to show layers from TerraBrasilis Geoserver
+description=The QGIS plugin provides access to the WMS services of the Spatial Data Infrastructure TerraBrasilis.
 version=0.1
 author=Adeline Maciel
-email=adelinemaciel22@gmail.com
+email=adeline.maciel@inpe.br
 
-about=This plugin to access layers from terrabrasilis geoserver by workspace
+about=The QGIS plugin provides access to the WMS services of the Spatial Data Infrastructure TerraBrasilis. From the TerraBrasilis Data Source, select the project name and desired layer, and it will be possible to access the layer metadata and added the layer to the canvas. The layers are provided via WMS which requires an active internet connection. 
 
 tracker=http://bugs
-repository=http://repo
+repository=https://github.com/terrabrasilis/terrabrasilis_datasource
 # End of mandatory metadata
 
 # Recommended items:
@@ -23,9 +23,9 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=python
+tags=python, wms
 
-homepage=http://homepage
+homepage=https://github.com/terrabrasilis/terrabrasilis_datasource
 category=Plugins
 icon=terrabrasilis.png
 # experimental flag
@@ -44,4 +44,5 @@ Category of the plugin: Raster, Vector, Database or Web
 
 # If the plugin can run on QGIS Server.
 server=False
+
 
