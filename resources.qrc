@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/plugins/terrabrasilis_datasource">
+    <file>terrabrasilisfig2.png</file>
+    <file>terrabrasilis.png</file>
+  </qresource>
+</RCC>
