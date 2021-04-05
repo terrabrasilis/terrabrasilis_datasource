@@ -27,10 +27,11 @@ from PyQt5 import QtCore
 from PyQt5.QtCore import QSettings, QTranslator, QCoreApplication, qVersion,QCoreApplication
 from PyQt5.QtGui import QIcon, QStandardItemModel, QStandardItem
 from PyQt5.QtWidgets import QAction, QFileDialog, QListWidget, QComboBox, QApplication, QWidget, QLabel, QVBoxLayout
-from qgis.core import QgsProject, Qgis, QgsRasterLayer, QgsProject
+from qgis.core import QgsProject, Qgis, QgsRasterLayer, QgsProject, QgsApplication
 
+import requests
 import json
-import urllib.request as request
+from qgis.utils import iface
 
 # Initialize Qt resources from file resources.py
 from .resources import *
@@ -310,11 +311,25 @@ class TerraBrasilisDataSource:
         self.dlg.comboBox_2.clear()
         self.dlg.textEdit.clear()
         
-        # read file
-        # myjson = open('/home/adeline/.local/share/QGIS/QGIS3/profiles/default/python/plugins/terrabrasilis_datasource/data/geoserver_terrabrasilis_info.json')
-
-        myjson = request.urlopen('https://raw.githubusercontent.com/terrabrasilis/terrabrasilis-datasource/master/data/geoserver_terrabrasilis_info.json').read().decode('utf8').split("\n")
-        data = json.load(myjson)
+        # read file from githut
+        # myjson = open('/home/user/.local/share/QGIS/QGIS3/profiles/default/python/plugins/terrabrasilis_datasource/data/geoserver_terrabrasilis_info.json')
+        url_json = 'https://raw.githubusercontent.com/terrabrasilis/terrabrasilis_datasource/master/data/geoserver_terrabrasilis_info.json'
+        #file_folder = os.path.join(os.path.expanduser("~"), "geoserver_terrabrasilis_info.json")
+        resp = requests.get(url_json)
+        
+        template = QgsApplication.qgisSettingsDirPath() + "python/plugins/terrabrasilis_datasource/data"
+        file_folder = os.path.join(template, "geoserver_terrabrasilis_info.json")
+        print(file_folder)
+        
+        if resp.status_code == requests.codes['ok']:
+            data = json.loads(resp.text)
+            with open(file_folder, 'w') as json_file:
+                json.dump(data, json_file)
+            #print(data)
+        else:
+            iface.messageBar().pushMessage("Error", "json from github terrabrasilis_datasource was not found.", level=1)
+            data = json.load(open(file_folder))
+            #print("From folder")
 
         # workspace
         self.dlg.comboBox.setModel(self.model)
