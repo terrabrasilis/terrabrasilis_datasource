@@ -6,7 +6,7 @@
 name=TerraBrasilis Data Source
 qgisMinimumVersion=3.0
 description=The QGIS plugin provides access to the WMS services of the Spatial Data Infrastructure TerraBrasilis.
-version=0.1
+version=0.2
 author=Adeline Maciel, National Institute for Space Research (INPE)
 email=adeline.maciel@inpe.br
 
@@ -23,13 +23,13 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=python, WMS, deforestation, network
+tags=python, WMS, deforestation
 
 homepage=https://github.com/terrabrasilis/terrabrasilis_datasource
 category=Plugins
 icon=terrabrasilis.png
 # experimental flag
-experimental=True
+experimental=False
 
 # deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
