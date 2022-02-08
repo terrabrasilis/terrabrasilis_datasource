@@ -216,7 +216,8 @@ class TerraBrasilisDataSource:
         
     # return elements that are used in other methods
     def layer_combo_box_info(self, data):
-        workspace = self.dlg.comboBox.currentText()
+        biome_name = self.dlg.comboBox.currentText()
+        workspace = None
         layer = self.dlg.comboBox_2.currentText()
         #print("---", workspace, "---", layer, "---")
         crs_layer = None
@@ -230,7 +231,8 @@ class TerraBrasilisDataSource:
 
         for i in data:
             for j in i["workspace"]:
-                if j['name'] == workspace:
+                if j['biome_name'] == biome_name:
+                    workspace = j["name"]
                     #print("Is the data", j['name'])
                     for k in j['layer']:
                         if k['name'] == layer:
@@ -268,7 +270,7 @@ class TerraBrasilisDataSource:
         #print("--------")
         self.dlg.textEdit.setText(str(url))
 
-    # open a lyer in QGIS when button is pressed
+    # open a layer in QGIS when button is pressed
     def open_layer_wms(self, data_layer):
         info_layer = self.layer_combo_box_info(data_layer)
         title = info_layer[2]
@@ -286,16 +288,25 @@ class TerraBrasilisDataSource:
                 # print(i)
                 # print(times.index(i))
                 # print(url[times.index(i)])
-                rlayer = QgsRasterLayer(url[times.index(i)], i, 'wms')
-                rlayer.isValid()
-                QgsProject.instance().addMapLayer(rlayer, False)
-                group.addLayer(rlayer)
+                if i == times[-1]:
+                    rlayer = QgsRasterLayer(url[times.index(i)], i, 'wms')
+                    #print("last layer ", url[times.index(i)]) ####
+                    rlayer.isValid()
+                    QgsProject.instance().addMapLayer(rlayer, False)
+                    group.addLayer(rlayer)
+                else:
+                    rlayer = QgsRasterLayer(url[times.index(i)], i, 'wms')
+                    #print("other layers ",url[times.index(i)]) ####
+                    rlayer.isValid()
+                    QgsProject.instance().addMapLayer(rlayer, False)
+                    group.addLayer(rlayer)
+                    root.findLayer(rlayer).setItemVisibilityChecked(False) # set layer as visible or not 
         else:
             rlayer = QgsRasterLayer(url, title, 'wms')
             rlayer.isValid() 
             QgsProject.instance().addMapLayer(rlayer)
             self.iface.zoomToActiveLayer()
-
+            
                 
     def run(self):
         """Run method that performs all the real work"""
@@ -320,7 +331,8 @@ class TerraBrasilisDataSource:
         template = QgsApplication.qgisSettingsDirPath() + "python/plugins/terrabrasilis_datasource/data"
         file_folder = os.path.join(template, "geoserver_terrabrasilis_info.json")
         print(file_folder)
-        
+        #data = json.load(open(file_folder)) # case test json from localhost
+
         if resp.status_code == requests.codes['ok']:
             data = json.loads(resp.text)
             with open(file_folder, 'w') as json_file:
@@ -339,11 +351,12 @@ class TerraBrasilisDataSource:
         for i in data:
             #print(i["workspace"])
             for j in i["workspace"]:
-                workspace_name = QStandardItem(j["name"])
-                self.model.appendRow(workspace_name)
+                biome_name = QStandardItem(j["biome_name"])
+                #workspace_name = j["name"]
+                self.model.appendRow(biome_name)
                 for k in j["layer"]:
                     layer_name = QStandardItem(k["name"])
-                    workspace_name.appendRow(layer_name)
+                    biome_name.appendRow(layer_name)
 
         # update both QComboBox
         self.dlg.comboBox.currentIndexChanged.connect(self.update_combo_box)
