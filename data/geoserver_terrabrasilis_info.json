@@ -101,7 +101,7 @@
           "name": "prodes-amz",
           "layer": [
             {
-              "name": "accumulated_deforestation_1988_2007_biome",
+              "name": "accumulated_deforestation_2007_biome",
               "title": "Accumulated Biome Deforestation - 1988/2007",
               "crs": 4674,
               "hasTime": false,
@@ -427,7 +427,7 @@
           "name": "prodes-legal-amz",
           "layer": [
             {
-              "name": "accumulated_deforestation_1988_2007",
+              "name": "accumulated_deforestation_2007",
               "title": "Accumulated Deforestation - 1988/2007",
               "crs": 4674,
               "hasTime": false,
