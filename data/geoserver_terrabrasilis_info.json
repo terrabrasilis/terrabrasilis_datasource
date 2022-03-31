@@ -162,7 +162,7 @@
             },
             {
               "name": "yearly_deforestation_biome",
-              "title": "Amazon Biome Yearly Deforestation - 2008/2021",
+              "title": "Amazon Biome Yearly Deforestation - 2008/2020",
               "crs": 4674,
               "hasTime": true,
               "times": [
@@ -178,8 +178,7 @@
                 "2017",
                 "2018",
                 "2019",
-                "2020",
-                "2021"
+                "2020"
               ],
               "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/b75b83db-8026-43f9-9537-ee1dfa308158"
             }
@@ -488,7 +487,7 @@
             },
             {
               "name": "yearly_deforestation",
-              "title": "Legal Amazon Yearly Deforestation - 2008/2021",
+              "title": "Legal Amazon Yearly Deforestation - 2008/2020",
               "crs": 4674,
               "hasTime": true,
               "times": [
@@ -504,8 +503,7 @@
                 "2017",
                 "2018",
                 "2019",
-                "2020",
-                "2021"
+                "2020"
               ],
               "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a5220c18-f7fa-4e3e-b39b-feeb3ccc4830"
             },
