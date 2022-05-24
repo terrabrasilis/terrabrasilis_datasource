@@ -241,8 +241,20 @@
               "crs": 4674,
               "hasTime": true,
               "times": [
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
                 "2016",
-                "2018"
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
               ],
               "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/0e1faf56-bcfd-4786-adcc-c9c2b5fa6607"
             }
@@ -305,9 +317,20 @@
               "crs": 4674,
               "hasTime": true,
               "times": [
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
                 "2016",
+                "2017",
                 "2018",
-                "2019"
+                "2019",
+                "2020",
+                "2021"
               ],
               "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/bbd82926-fd28-4fb7-938b-51f35dd69183"
             }
@@ -359,7 +382,20 @@
               "crs": 4326,
               "hasTime": true,
               "times": [
-                "2016"
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
               ],
               "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/8640b278-a6b1-45c9-a5de-032bd3f8b9b5"
             }
@@ -411,7 +447,20 @@
               "crs": 4326,
               "hasTime": true,
               "times": [
-                "2016"
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
               ],
               "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a00ecfa8-6243-408c-a157-dfaf27104d94"
             }
