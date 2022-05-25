@@ -31,7 +31,7 @@ Once you have installed and enabled the plugin TerraBrasilis Data Source, it can
 
 ### Access the video
 
-https://terrabrasilis.githubusercontent.com/terrabrasilis_datasource/how_to_use_this_plugin.mp4
+![Go to video plugin](/res/)
 
 
 ## Development
