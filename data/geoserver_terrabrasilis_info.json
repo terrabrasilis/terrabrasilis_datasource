@@ -262,6 +262,39 @@
         }
       ]
     },
+     {
+      "workspace": [
+        {
+          "biome_name": "Prodes Pampa - NOVO",   
+          "name": "prodes-pampa-nb",
+          "layer": [
+            {
+              "name": "temporal_mosaic_pampa_nb",
+              "title": "Image Mosaic Pampa Biome",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/0e1faf56-bcfd-4786-adcc-c9c2b5fa6607"
+            }
+          ]
+        }
+      ]
+    },
     {
       "workspace": [
         {
