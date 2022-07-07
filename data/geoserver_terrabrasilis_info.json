@@ -269,7 +269,7 @@
           "name": "prodes-pampa-nb",
           "layer": [
             {
-              "name": "temporal_mosaic_pampa_nb",
+              "name": "temporal_mosaic_pampa",
               "title": "Image Mosaic Pampa Biome",
               "crs": 4674,
               "hasTime": true,
