@@ -118,7 +118,7 @@
             },
             {
               "name": "cloud_biome",
-              "title": "Cloud - 2016/2020",
+              "title": "Cloud - 2016/2021",
               "crs": 4674,
               "hasTime": true,
               "times": [
@@ -133,7 +133,7 @@
             },
             {
               "name": "forest_biome",
-              "title": "Forest - 2016/2020",
+              "title": "Forest - 2016/2021",
               "crs": 4674,
               "hasTime": true,
               "times": [
@@ -164,7 +164,7 @@
             },
             {
               "name": "yearly_deforestation_biome",
-              "title": "Amazon Biome Yearly Deforestation - 2008/2020",
+              "title": "Amazon Biome Yearly Deforestation - 2008/2021",
               "crs": 4674,
               "hasTime": true,
               "times": [
@@ -627,7 +627,7 @@
             },
             {
               "name": "cloud",
-              "title": "Cloud - 2016/2020",
+              "title": "Cloud - 2016/2021",
               "crs": 4674,
               "hasTime": true,
               "times": [
@@ -642,7 +642,7 @@
             },
             {
               "name": "forest",
-              "title": "Forest 2016/2020",
+              "title": "Forest 2016/2021",
               "crs": 4674,
               "hasTime": true,
               "times": [
@@ -673,7 +673,7 @@
             },
             {
               "name": "yearly_deforestation",
-              "title": "Legal Amazon Yearly Deforestation - 2008/2020",
+              "title": "Legal Amazon Yearly Deforestation - 2008/2021",
               "crs": 4674,
               "hasTime": true,
               "times": [
