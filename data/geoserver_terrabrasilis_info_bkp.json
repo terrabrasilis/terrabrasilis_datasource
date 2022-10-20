@@ -262,6 +262,39 @@
         }
       ]
     },
+     {
+      "workspace": [
+        {
+          "biome_name": "Prodes Pampa - NOVO",   
+          "name": "prodes-pampa-nb",
+          "layer": [
+            {
+              "name": "temporal_mosaic_pampa",
+              "title": "Image Mosaic Pampa Biome",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/0e1faf56-bcfd-4786-adcc-c9c2b5fa6607"
+            }
+          ]
+        }
+      ]
+    },
     {
       "workspace": [
         {
@@ -311,6 +344,39 @@
               ],
               "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/616943ab-a40f-4196-9592-ecc6a7c4901e"
             },
+            {
+              "name": "temporal_mosaic_pantanal",
+              "title": "Image Mosaic Pantanal Biome",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/bbd82926-fd28-4fb7-938b-51f35dd69183"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "workspace": [
+        {
+          "biome_name": "Prodes Pantanal - NOVO", 
+          "name": "prodes-pantanal-nb",
+           "layer": [
             {
               "name": "temporal_mosaic_pantanal",
               "title": "Image Mosaic Pantanal Biome",
@@ -403,6 +469,39 @@
         }
       ]
     },
+{
+      "workspace": [
+        {
+          "biome_name": "Prodes Caatinga - NOVO", 
+          "name": "prodes-caatinga-nb",
+          "layer": [
+            {
+              "name": "temporal_mosaic_caatinga",
+              "title": "Image Mosaic Caatinga Biome",
+              "crs": 4326,
+              "hasTime": true,
+              "times": [
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/8640b278-a6b1-45c9-a5de-032bd3f8b9b5"
+            }
+          ]
+        }
+      ]
+    },
     {
       "workspace": [
         {
@@ -442,6 +541,39 @@
               "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/55fa25eb-5491-4472-942f-55bd790acfbf"
             },
             {
+              "name": "temporal_mosaic_mata_atlantica",
+              "title": "Image Mosaic Mata Atl\u00e2ntica Biome",
+              "crs": 4326,
+              "hasTime": true,
+              "times": [
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a00ecfa8-6243-408c-a157-dfaf27104d94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "workspace": [
+        {
+          "biome_name": "Prodes Mata Atlântica - NOVO", 
+          "name": "prodes-mata-atlantica-nb",
+          "layer": [
+             {
               "name": "temporal_mosaic_mata_atlantica",
               "title": "Image Mosaic Mata Atl\u00e2ntica Biome",
               "crs": 4326,
@@ -552,7 +684,8 @@
                 "2017",
                 "2018",
                 "2019",
-                "2020"
+                "2020",
+                "2021"  
               ],
               "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a5220c18-f7fa-4e3e-b39b-feeb3ccc4830"
             },
@@ -583,7 +716,8 @@
                 "2018",
                 "2019",
                 "2020",
-                "2021"
+                "2021",
+                "2022"  
               ],
               "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/243cec4a-0ef5-453b-b8d4-f10a38ed044e"
             }
