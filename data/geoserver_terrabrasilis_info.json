@@ -201,7 +201,7 @@
               "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/c6748fdf-a18e-41b9-a523-ea14bae92602"
             },
             {
-              "name": "brazilian_amazon_biome_border",
+              "name": "amazon_biome_border",
               "title": "Brazilian Amazon Biome Border",
               "crs": 4674,
               "hasTime": false,
