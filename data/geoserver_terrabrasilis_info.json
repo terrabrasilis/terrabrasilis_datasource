@@ -93,12 +93,104 @@
             ]
             }
         ]
-        },    
+    },    
     {
       "workspace": [
         {
           "biome_name": "Prodes Amazonia", 
           "name": "prodes-amz",
+          "layer": [
+            {
+              "name": "accumulated_deforestation_2007_biome",
+              "title": "Accumulated Biome Deforestation - 1988/2007",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/c6748fdf-a18e-41b9-a523-ea14bae92602"
+            },
+            {
+              "name": "brazilian_amazon_biome_border",
+              "title": "Brazilian Amazon Biome Border",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/662fdeaa-d0bc-4cd0-909c-0562ce3b5389"
+            },
+            {
+              "name": "cloud_biome",
+              "title": "Cloud - 2016/2020",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/57087018-9cec-4eed-822c-c850b35e5242"
+            },
+            {
+              "name": "forest_biome",
+              "title": "Forest - 2016/2020",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020" 
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/e7523c17-8570-4da6-ab41-f7fb62d7b86b"
+            },
+            {
+              "name": "hydrography_biome",
+              "title": "Hydrographic data of the Amazonia Biome",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/1df78632-68e7-4e91-bca0-25305d3f831e"
+            },
+            {
+              "name": "no_forest_biome",
+              "title": "No Forest",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/bed1276c-aa3d-4f5b-b560-1879617ef13d"
+            },
+            {
+              "name": "yearly_deforestation_biome",
+              "title": "Amazon Biome Yearly Deforestation - 2008/2020",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020" 
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/b75b83db-8026-43f9-9537-ee1dfa308158"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "workspace": [
+        {
+          "biome_name": "Prodes Amazonia - NOVO", 
+          "name": "prodes-amazon-nb",
           "layer": [
             {
               "name": "accumulated_deforestation_2007_biome",
