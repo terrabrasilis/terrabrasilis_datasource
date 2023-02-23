@@ -1,0 +1,826 @@
+[
+    {
+        "workspace": [
+            {
+            "biome_name": "Prodes Cerrado - NOVO", 
+            "name": "prodes-cerrado-nb",
+            "layer": [
+                {
+                "name": "accumulated_deforestation",
+                "title": "Accumulated Deforestation until 2000",
+                "crs": 4674,
+                "hasTime": false,
+                "times": null,
+                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/504416f5-b09d-4dce-adb9-5673ad5bd0b2"
+                },
+                {
+                "name": "states_cerrado_biome",
+                "title": "Brazilian states in the Cerrado Biome",
+                "crs": 4674,
+                "hasTime": false,
+                "times": null,
+                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/b4bab3e1-aa91-4ed9-9329-6b0dbd17f04b"
+                },
+                {
+                "name": "biome_border",
+                "title": "Brazilian Cerrado Biome Border",
+                "crs": 4674,
+                "hasTime": false,
+                "times": null,
+                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/7b456c35-7f83-4ef6-a5e8-6adf570dea54"
+                },
+                {
+                "name": "municipalities_cerrado_biome",
+                "title": "Municipalities of the Cerrado Biome",
+                "crs": 4674,
+                "hasTime": false,
+                "times": null,
+                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/5d03e1d4-f896-430a-800f-70ac72eac67b"
+                },
+                {
+                "name": "hydrography",
+                "title": "Hydrographic data of the Cerrado Biome",
+                "crs": 4674,
+                "hasTime": false,
+                "times": null,
+                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/358cee61-8c63-459e-8d8f-5fa271106bbb"
+                },
+                {
+                "name": "yearly_deforestation",
+                "title": "Yearly Deforestation in the Cerrado Biome",
+                "crs": 4674,
+                "hasTime": true,
+                "times": [
+                    "2010",
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019",
+                    "2020",
+                    "2021"
+                ],
+                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/6b621182-93d6-4a83-b5db-ae53a621276d"
+                },
+                {
+                "name": "temporal_mosaic_cerrado",
+                "title": "Image Mosaic Cerrado Biome",
+                "crs": 4326,
+                "hasTime": true,
+                "times": [
+                    "2000",
+                    "2002",
+                    "2004",
+                    "2006",
+                    "2008",
+                    "2010",
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019",
+                    "2020",
+                    "2021",
+                    "2022"
+                ],
+                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d24343ee-40de-4caf-97a1-09042963d2e2"
+                }
+            ]
+            }
+        ]
+    },    
+    {
+      "workspace": [
+        {
+          "biome_name": "Prodes Amazonia", 
+          "name": "prodes-amz",
+          "layer": [
+            {
+              "name": "accumulated_deforestation_2007_biome",
+              "title": "Accumulated Biome Deforestation - 1988/2007",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/c6748fdf-a18e-41b9-a523-ea14bae92602"
+            },
+            {
+              "name": "brazilian_amazon_biome_border",
+              "title": "Brazilian Amazon Biome Border",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/662fdeaa-d0bc-4cd0-909c-0562ce3b5389"
+            },
+            {
+              "name": "cloud_biome",
+              "title": "Cloud - 2016/2020",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/57087018-9cec-4eed-822c-c850b35e5242"
+            },
+            {
+              "name": "forest_biome",
+              "title": "Forest - 2016/2020",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020" 
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/e7523c17-8570-4da6-ab41-f7fb62d7b86b"
+            },
+            {
+              "name": "hydrography_biome",
+              "title": "Hydrographic data of the Amazonia Biome",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/1df78632-68e7-4e91-bca0-25305d3f831e"
+            },
+            {
+              "name": "no_forest_biome",
+              "title": "No Forest",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/bed1276c-aa3d-4f5b-b560-1879617ef13d"
+            },
+            {
+              "name": "yearly_deforestation_biome",
+              "title": "Amazon Biome Yearly Deforestation - 2008/2020",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020" 
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/b75b83db-8026-43f9-9537-ee1dfa308158"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "workspace": [
+        {
+          "biome_name": "Prodes Amazonia - NOVO", 
+          "name": "prodes-amazon-nb",
+          "layer": [
+            {
+              "name": "accumulated_deforestation_2007_biome",
+              "title": "Accumulated Biome Deforestation - 1988/2007",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/c6748fdf-a18e-41b9-a523-ea14bae92602"
+            },
+            {
+              "name": "amazon_biome_border",
+              "title": "Brazilian Amazon Biome Border",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/662fdeaa-d0bc-4cd0-909c-0562ce3b5389"
+            },
+            {
+              "name": "cloud_biome",
+              "title": "Cloud - 2016/2021",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"  
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/57087018-9cec-4eed-822c-c850b35e5242"
+            },
+            {
+              "name": "forest_biome",
+              "title": "Forest - 2016/2021",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"  
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/e7523c17-8570-4da6-ab41-f7fb62d7b86b"
+            },
+            {
+              "name": "hydrography_biome",
+              "title": "Hydrographic data of the Amazonia Biome",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/1df78632-68e7-4e91-bca0-25305d3f831e"
+            },
+            {
+              "name": "no_forest_biome",
+              "title": "No Forest",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/bed1276c-aa3d-4f5b-b560-1879617ef13d"
+            },
+            {
+              "name": "yearly_deforestation_biome",
+              "title": "Amazon Biome Yearly Deforestation - 2008/2021",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"  
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/b75b83db-8026-43f9-9537-ee1dfa308158"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "workspace": [
+        {
+          "biome_name": "Prodes Pampa",   
+          "name": "prodes-pampa",
+          "layer": [
+            {
+              "name": "accumulated_deforestation_up_to_2016",
+              "title": "Accumulated Deforestation - up to 2016",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/9b57c4fc-cc95-4ed6-860c-08cee2679dd7"
+            },
+            {
+              "name": "biome_border",
+              "title": "Pampa Biome Border",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/9846253b-c8de-46f1-95ab-fbe6806e04aa"
+            },
+            {
+              "name": "hydrography",
+              "title": "Hydrographic data of the Pampa Biome",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/986bc6d9-4a26-4727-87df-820e68709936"
+            },
+            {
+              "name": "cloud",
+              "title": "Cloud at Pampa Biome",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/c2238908-66e1-431d-848c-2741b96c06fb"
+            },
+            {
+              "name": "yearly_deforestation",
+              "title": "Pampa Biome Yearly Deforestation (2018-2019)",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2018",
+                "2019"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a551570c-78a2-45b3-95e8-0e518fbce941"
+            },
+            {
+              "name": "temporal_mosaic_pampa",
+              "title": "Image Mosaic Pampa Biome",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/0e1faf56-bcfd-4786-adcc-c9c2b5fa6607"
+            }
+          ]
+        }
+      ]
+    },
+     {
+      "workspace": [
+        {
+          "biome_name": "Prodes Pampa - NOVO",   
+          "name": "prodes-pampa-nb",
+          "layer": [
+            {
+              "name": "temporal_mosaic_pampa",
+              "title": "Image Mosaic Pampa Biome",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/0e1faf56-bcfd-4786-adcc-c9c2b5fa6607"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "workspace": [
+        {
+          "biome_name": "Prodes Pantanal", 
+          "name": "prodes-pantanal",
+          "layer": [
+            {
+              "name": "accumulated_deforestation_up_to_2016",
+              "title": "Accumulated Deforestation - up to 2016",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/0732753e-57dd-41b4-848a-e2a54f2b7143"
+            },
+            {
+              "name": "biome_border",
+              "title": "Pantanal Biome Border",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/39c2aefa-acf0-4c00-826c-c7f0f4156e61"
+            },
+            {
+              "name": "hydrography",
+              "title": "Hydrographic data of the Pantanal Biome",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/dfcba72f-827b-485e-bcb5-bc8e1461054a"
+            },
+            {
+              "name": "cloud",
+              "title": "Cloud at Pantanal Biome",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/5aef33f7-db71-4966-8311-8b249af74dc3"
+            },
+            {
+              "name": "yearly_deforestation",
+              "title": "Pantanal Biome Yearly Deforestation (2018-2019)",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2018",
+                "2019"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/616943ab-a40f-4196-9592-ecc6a7c4901e"
+            },
+            {
+              "name": "temporal_mosaic_pantanal",
+              "title": "Image Mosaic Pantanal Biome",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/bbd82926-fd28-4fb7-938b-51f35dd69183"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "workspace": [
+        {
+          "biome_name": "Prodes Pantanal - NOVO", 
+          "name": "prodes-pantanal-nb",
+           "layer": [
+            {
+              "name": "temporal_mosaic_pantanal",
+              "title": "Image Mosaic Pantanal Biome",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/bbd82926-fd28-4fb7-938b-51f35dd69183"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "workspace": [
+        {
+          "biome_name": "Prodes Caatinga", 
+          "name": "prodes-caatinga",
+          "layer": [
+            {
+              "name": "biome_border",
+              "title": "Caatinga Biome Border",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/ab4f9a01-a1b5-4a55-80ea-6f5e5bbd31e2"
+            },
+            {
+              "name": "accumulated_deforestation_up_to_2016",
+              "title": "Accumulated Deforestation - up to 2016",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/588eda4e-ad18-4104-812e-d9223e8c02cb"
+            },
+            {
+              "name": "hydrography",
+              "title": "Hydrographic data of the Caatinga Biome",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/4c0e3e3d-cb7b-48f1-93e7-cfb2d3c836dd"
+            },
+            {
+              "name": "cloud",
+              "title": "Cloud at Caatinga Biome",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/6058a4d2-00d8-43a8-a23c-db137db0b3ea"
+            },
+            {
+              "name": "temporal_mosaic_caatinga",
+              "title": "Image Mosaic Caatinga Biome",
+              "crs": 4326,
+              "hasTime": true,
+              "times": [
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/8640b278-a6b1-45c9-a5de-032bd3f8b9b5"
+            }
+          ]
+        }
+      ]
+    },
+{
+      "workspace": [
+        {
+          "biome_name": "Prodes Caatinga - NOVO", 
+          "name": "prodes-caatinga-nb",
+          "layer": [
+            {
+              "name": "temporal_mosaic_caatinga",
+              "title": "Image Mosaic Caatinga Biome",
+              "crs": 4326,
+              "hasTime": true,
+              "times": [
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/8640b278-a6b1-45c9-a5de-032bd3f8b9b5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "workspace": [
+        {
+          "biome_name": "Prodes Mata Atlântica", 
+          "name": "prodes-mata-atlantica",
+          "layer": [
+            {
+              "name": "biome_border",
+              "title": "Mata Atl\u00e2ntica Biome Border",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d78641f2-1054-4140-b2e6-645a6ce908e5"
+            },
+            {
+              "name": "accumulated_deforestation_up_to_2016",
+              "title": "Accumulated Deforestation - up to 2016",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/49668005-8fc0-4d3f-9a7b-267aee14d1ff"
+            },
+            {
+              "name": "hydrography",
+              "title": "Hydrographic data of the Mata Atl\u00e2ntica Biome",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/47bb3fa5-e60a-4afd-ba78-29de35223944"
+            },
+            {
+              "name": "cloud",
+              "title": "Cloud at Mata Atl\u00e2ntica Biome",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/55fa25eb-5491-4472-942f-55bd790acfbf"
+            },
+            {
+              "name": "temporal_mosaic_mata_atlantica",
+              "title": "Image Mosaic Mata Atl\u00e2ntica Biome",
+              "crs": 4326,
+              "hasTime": true,
+              "times": [
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a00ecfa8-6243-408c-a157-dfaf27104d94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "workspace": [
+        {
+          "biome_name": "Prodes Mata Atlântica - NOVO", 
+          "name": "prodes-mata-atlantica-nb",
+          "layer": [
+             {
+              "name": "temporal_mosaic_mata_atlantica",
+              "title": "Image Mosaic Mata Atl\u00e2ntica Biome",
+              "crs": 4326,
+              "hasTime": true,
+              "times": [
+                "2000",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2011",
+                "2013",
+                "2014",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a00ecfa8-6243-408c-a157-dfaf27104d94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "workspace": [
+        {
+          "biome_name": "Prodes Amazonia Legal", 
+          "name": "prodes-legal-amz",
+          "layer": [
+            {
+              "name": "accumulated_deforestation_2007",
+              "title": "Accumulated Deforestation - 1988/2007",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/415220fc-3013-4258-bd21-83014865cee5"
+            },
+            {
+              "name": "brazilian_legal_amazon",
+              "title": "Legal Amazon",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d6289e13-c6f3-4103-ba83-13a8452d46cb"
+            },
+            {
+              "name": "cloud",
+              "title": "Cloud - 2016/2021",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"  
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d6f8da09-5c6c-417b-bfac-769c010e9769"
+            },
+            {
+              "name": "forest",
+              "title": "Forest 2016/2021",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"  
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/dd31e0cb-0b36-4441-9f4a-a4a896bfae70"
+            },
+            {
+              "name": "hydrography",
+              "title": "Hydrographic data of the Legal Amazonia",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d18f51fd-f7fa-4e22-a6c3-485a06a29276"
+            },
+            {
+              "name": "no_forest",
+              "title": "No Forest",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/ab81b88d-b089-4d0f-8185-e34cbfb52464"
+            },
+            {
+              "name": "yearly_deforestation",
+              "title": "Legal Amazon Yearly Deforestation - 2008/2021",
+              "crs": 4674,
+              "hasTime": true,
+              "times": [
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021"  
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a5220c18-f7fa-4e3e-b39b-feeb3ccc4830"
+            },
+            {
+              "name": "temporal_mosaic_legal_amazon",
+              "title": "Image Mosaic Legal Amazon",
+              "crs": 4326,
+              "hasTime": true,
+              "times": [
+                "2000",
+                "2001",
+                "2002",
+                "2003",
+                "2004",
+                "2005",
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021",
+                "2022"  
+              ],
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/243cec4a-0ef5-453b-b8d4-f10a38ed044e"
+            }
+          ]
+        }
+      ]
+    }    
+  ]
