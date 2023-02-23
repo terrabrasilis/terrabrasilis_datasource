@@ -18,6 +18,7 @@
               "title": "PRODES Brazil",
               "crs": 4674,
               "hasTime": false,
+              "times": null, 
               "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/fe02f2bf-2cc0-49d5-ab72-a3954f997408"
             }
           ]
@@ -133,7 +134,7 @@
           "layer": [
             {
               "name": "accumulated_deforestation_2007_biome",
-              "title": "Accumulated Biome Deforestation - 1988/2007",
+              "title": "Accumulated Deforestation in Amazon Biome - 2007",
               "crs": 4674,
               "hasTime": false,
               "times": null,
@@ -145,11 +146,27 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/662fdeaa-d0bc-4cd0-909c-0562ce3b5389"
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+            },
+            {
+              "name": "states_amazon_biome",
+              "title": "States Amazon Biome",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+            },   
+            {
+              "name": "municipalities_amazon_biome",
+              "title": "Municipalities Amazon Biome",
+              "crs": 4674,
+              "hasTime": false,
+              "times": null,
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },
             {
               "name": "cloud_biome",
-              "title": "Cloud - 2016/2021",
+              "title": "Cloud since 2016",
               "crs": 4674,
               "hasTime": true,
               "times": [
@@ -164,7 +181,7 @@
             },
             {
               "name": "forest_biome",
-              "title": "Forest - 2016/2021",
+              "title": "Forest since 2016",
               "crs": 4674,
               "hasTime": true,
               "times": [
@@ -179,7 +196,7 @@
             },
             {
               "name": "hydrography_biome",
-              "title": "Hydrographic data of the Amazonia Biome",
+              "title": "Hydrography data of the Amazonia Biome",
               "crs": 4674,
               "hasTime": false,
               "times": null,
@@ -195,7 +212,7 @@
             },
             {
               "name": "yearly_deforestation_biome",
-              "title": "Amazon Biome Yearly Deforestation - 2008/2021",
+              "title": "Amazon Biome Yearly Deforestation since 2008",
               "crs": 4674,
               "hasTime": true,
               "times": [
@@ -240,7 +257,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/9846253b-c8de-46f1-95ab-fbe6806e04aa"
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },
             {
               "name": "states_pampa_biome",
@@ -248,7 +265,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": ""
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },   
             {
               "name": "municipalities_pampa_biome",
@@ -256,7 +273,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": ""
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },
             {
               "name": "hydrography",
@@ -335,7 +352,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/39c2aefa-acf0-4c00-826c-c7f0f4156e61"
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },
             {
               "name": "states_pantanal_biome",
@@ -343,7 +360,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": ""
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },     
             {
               "name": "municipalities_pantanal_biome",
@@ -351,7 +368,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": ""
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },
             {
               "name": "hydrography",
@@ -430,7 +447,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": ""
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },   
             {
               "name": "states_caatinga_biome",
@@ -438,7 +455,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": ""
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },     
             {
               "name": "municipalities_caatinga_biome",
@@ -446,7 +463,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": ""
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },
             {
               "name": "hydrography",
@@ -525,7 +542,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": ""
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },  
             {
               "name": "states_mata_atlantica_biome",
@@ -533,7 +550,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": ""
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },     
             {
               "name": "municipalities_mata_atlantica_biome",
@@ -541,7 +558,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": ""
+              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },
             {
               "name": "hydrography",
@@ -608,7 +625,7 @@
           "layer": [
             {
               "name": "accumulated_deforestation_2007",
-              "title": "Accumulated Deforestation - 1988/2007",
+              "title": "Accumulated Deforestation until 2007",
               "crs": 4674,
               "hasTime": false,
               "times": null,
@@ -624,7 +641,7 @@
             },
             {
               "name": "cloud",
-              "title": "Cloud - 2016/2021",
+              "title": "Cloud since 2016",
               "crs": 4674,
               "hasTime": true,
               "times": [
@@ -639,7 +656,7 @@
             },
             {
               "name": "forest",
-              "title": "Forest 2016/2021",
+              "title": "Forest since 2016",
               "crs": 4674,
               "hasTime": true,
               "times": [
@@ -670,7 +687,7 @@
             },
             {
               "name": "yearly_deforestation",
-              "title": "Legal Amazon Yearly Deforestation - 2008/2021",
+              "title": "Legal Amazon Yearly Deforestation since 2008",
               "crs": 4674,
               "hasTime": true,
               "times": [
