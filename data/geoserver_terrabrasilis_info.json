@@ -92,7 +92,8 @@
                     "2019",
                     "2020",
                     "2021",
-                    "2022"
+                    "2022",
+                    "2023"
                 ],
                 "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/6b621182-93d6-4a83-b5db-ae53a621276d"
                 },
@@ -177,7 +178,8 @@
                 "2019",
                 "2020",
                 "2021",
-                "2022"  
+                "2022",
+                "2023"
               ],
               "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/57087018-9cec-4eed-822c-c850b35e5242"
             },
@@ -192,7 +194,8 @@
                 "2018",
                 "2019",
                 "2020",
-                "2021"  
+                "2021",
+                "2022"
               ],
               "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/e7523c17-8570-4da6-ab41-f7fb62d7b86b"
             },
@@ -232,44 +235,36 @@
                 "2019",
                 "2020",
                 "2021",
-                "2022"  
+                "2022",
+                "2023"
               ],
               "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/b75b83db-8026-43f9-9537-ee1dfa308158"
+            },
+            {
+              "name": "temporal_mosaic_amz_biome",
+              "title": "Image Mosaic Amazon Biome",
+              "crs": 4326,
+              "hasTime": true,
+              "times": [
+                  "1980",
+                  "2000",
+                  "2002",
+                  "2004",
+                  "2006",
+                  "2008",
+                  "2010",
+                  "2013",
+                  "2014",
+                  "2016",
+                  "2018",
+                  "2019",
+                  "2020",
+                  "2021",
+                  "2022",
+                  "2023"
+              ],
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             }
-          ]
-        }
-      ]
-    },
-    {
-      "workspace": [
-        {
-          "biome_name": "Prodes Amazonia - Não Floresta", 
-          "name": "prodes-amazon-nb",
-          "layer": [
-           {
-                "name": "temporal_mosaic_amazon_1980",
-                "title": "Image Mosaic Amazon Biome - Non-Forest",
-                "crs": 4326,
-                "hasTime": true,
-                "times": [
-                    "1980",
-                    "2000",
-                    "2002",
-                    "2004",
-                    "2006",
-                    "2008",
-                    "2010",
-                    "2013",
-                    "2014",
-                    "2016",
-                    "2018",
-                    "2019",
-                    "2020",
-                    "2021",
-                    "2022"
-                ],
-                "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
-                }
           ]
         }
       ]
@@ -436,7 +431,8 @@
                 "2019",
                 "2020",
                 "2021",
-                "2022"
+                "2022",
+                "2023"
               ],
               "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/616943ab-a40f-4196-9592-ecc6a7c4901e"
             },
@@ -460,7 +456,8 @@
                 "2019",
                 "2020",
                 "2021",
-                "2022"
+                "2022",
+                "2023"
               ],
               "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/bbd82926-fd28-4fb7-938b-51f35dd69183"
             }
@@ -696,7 +693,8 @@
                 "2019",
                 "2020",
                 "2021",
-                "2022"  
+                "2022",
+                "2023"
               ],
               "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d6f8da09-5c6c-417b-bfac-769c010e9769"
             },
@@ -711,7 +709,8 @@
                 "2018",
                 "2019",
                 "2020",
-                "2021"  
+                "2021",
+                "2022"
               ],
               "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/dd31e0cb-0b36-4441-9f4a-a4a896bfae70"
             },
@@ -751,7 +750,8 @@
                 "2019",
                 "2020",
                 "2021",
-                "2022"  
+                "2022",
+                "2023"
               ],
               "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a5220c18-f7fa-4e3e-b39b-feeb3ccc4830"
             },
