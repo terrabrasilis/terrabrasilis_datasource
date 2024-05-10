@@ -2,7 +2,7 @@
     {
       "workspace": [
         {
-          "biome_name": "Prodes Brasil",   
+          "biome_name": "Prodes Brasil",
           "name": "prodes-brasil-nb",
           "layer": [
             {
@@ -11,7 +11,7 @@
                 "crs": 4674,
                 "hasTime": false,
                 "times": null,
-                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/0d88678e-4cdb-44f3-9b1d-8edc00bc4122"
+                "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/0d88678e-4cdb-44f3-9b1d-8edc00bc4122"
             },  
             {
               "name": "prodes_brasil",
@@ -19,7 +19,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null, 
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/fe02f2bf-2cc0-49d5-ab72-a3954f997408"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/fe02f2bf-2cc0-49d5-ab72-a3954f997408"
             }
           ]
         }
@@ -37,7 +37,7 @@
                 "crs": 4674,
                 "hasTime": false,
                 "times": null,
-                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/504416f5-b09d-4dce-adb9-5673ad5bd0b2"
+                "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/504416f5-b09d-4dce-adb9-5673ad5bd0b2"
                 },
                 {
                 "name": "biome_border",
@@ -45,7 +45,7 @@
                 "crs": 4674,
                 "hasTime": false,
                 "times": null,
-                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+                "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
                 },
                 {
                 "name": "states_cerrado_biome",
@@ -53,7 +53,7 @@
                 "crs": 4674,
                 "hasTime": false,
                 "times": null,
-                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+                "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
                 },
                 {
                 "name": "municipalities_cerrado_biome",
@@ -61,7 +61,7 @@
                 "crs": 4674,
                 "hasTime": false,
                 "times": null,
-                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+                "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
                 },
                 {
                 "name": "hydrography",
@@ -69,7 +69,7 @@
                 "crs": 4674,
                 "hasTime": false,
                 "times": null,
-                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/358cee61-8c63-459e-8d8f-5fa271106bbb"
+                "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/358cee61-8c63-459e-8d8f-5fa271106bbb"
                 },
                 {
                 "name": "yearly_deforestation",
@@ -94,7 +94,7 @@
                     "2021",
                     "2022"
                 ],
-                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/6b621182-93d6-4a83-b5db-ae53a621276d"
+                "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/6b621182-93d6-4a83-b5db-ae53a621276d"
                 },
                 {
                 "name": "temporal_mosaic_cerrado",
@@ -121,7 +121,7 @@
                     "2022",
                     "2023"
                 ],
-                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d24343ee-40de-4caf-97a1-09042963d2e2"
+                "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d24343ee-40de-4caf-97a1-09042963d2e2"
                 }
             ]
             }
@@ -139,7 +139,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/c6748fdf-a18e-41b9-a523-ea14bae92602"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/c6748fdf-a18e-41b9-a523-ea14bae92602"
             },
             {
               "name": "amazon_biome_border",
@@ -147,7 +147,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },
             {
               "name": "states_amazon_biome",
@@ -155,7 +155,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },   
             {
               "name": "municipalities_amazon_biome",
@@ -163,7 +163,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },
             {
               "name": "cloud_biome",
@@ -179,7 +179,7 @@
                 "2021",
                 "2022"  
               ],
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/57087018-9cec-4eed-822c-c850b35e5242"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/57087018-9cec-4eed-822c-c850b35e5242"
             },
             {
               "name": "forest_biome",
@@ -194,7 +194,7 @@
                 "2020",
                 "2021"  
               ],
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/e7523c17-8570-4da6-ab41-f7fb62d7b86b"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/e7523c17-8570-4da6-ab41-f7fb62d7b86b"
             },
             {
               "name": "hydrography_biome",
@@ -202,7 +202,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/1df78632-68e7-4e91-bca0-25305d3f831e"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/1df78632-68e7-4e91-bca0-25305d3f831e"
             },
             {
               "name": "no_forest_biome",
@@ -210,7 +210,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/bed1276c-aa3d-4f5b-b560-1879617ef13d"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/bed1276c-aa3d-4f5b-b560-1879617ef13d"
             },
             {
               "name": "yearly_deforestation_biome",
@@ -234,7 +234,7 @@
                 "2021",
                 "2022"  
               ],
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/b75b83db-8026-43f9-9537-ee1dfa308158"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/b75b83db-8026-43f9-9537-ee1dfa308158"
             }
           ]
         }
@@ -268,7 +268,7 @@
                     "2021",
                     "2022"
                 ],
-                "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+                "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
                 }
           ]
         }
@@ -286,7 +286,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/9b57c4fc-cc95-4ed6-860c-08cee2679dd7"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/9b57c4fc-cc95-4ed6-860c-08cee2679dd7"
             },
             {
               "name": "biome_border",
@@ -294,7 +294,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },
             {
               "name": "states_pampa_biome",
@@ -302,7 +302,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },   
             {
               "name": "municipalities_pampa_biome",
@@ -310,7 +310,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },
             {
               "name": "hydrography",
@@ -318,7 +318,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/986bc6d9-4a26-4727-87df-820e68709936"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/986bc6d9-4a26-4727-87df-820e68709936"
             },
             {
               "name": "yearly_deforestation",
@@ -341,7 +341,7 @@
                 "2021",
                 "2022"
               ],
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a551570c-78a2-45b3-95e8-0e518fbce941"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a551570c-78a2-45b3-95e8-0e518fbce941"
             },
             {
               "name": "temporal_mosaic_pampa",
@@ -365,7 +365,7 @@
                 "2021",
                 "2022"
               ],
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/0e1faf56-bcfd-4786-adcc-c9c2b5fa6607"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/0e1faf56-bcfd-4786-adcc-c9c2b5fa6607"
             }
           ]
         }
@@ -383,7 +383,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/0732753e-57dd-41b4-848a-e2a54f2b7143"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/0732753e-57dd-41b4-848a-e2a54f2b7143"
             },
             {
               "name": "biome_border",
@@ -391,7 +391,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },
             {
               "name": "states_pantanal_biome",
@@ -399,7 +399,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },     
             {
               "name": "municipalities_pantanal_biome",
@@ -407,7 +407,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },
             {
               "name": "hydrography",
@@ -415,7 +415,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/dfcba72f-827b-485e-bcb5-bc8e1461054a"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/dfcba72f-827b-485e-bcb5-bc8e1461054a"
             },
             {
               "name": "yearly_deforestation",
@@ -438,7 +438,7 @@
                 "2021",
                 "2022"
               ],
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/616943ab-a40f-4196-9592-ecc6a7c4901e"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/616943ab-a40f-4196-9592-ecc6a7c4901e"
             },
             {
               "name": "temporal_mosaic_pantanal",
@@ -462,7 +462,7 @@
                 "2021",
                 "2022"
               ],
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/bbd82926-fd28-4fb7-938b-51f35dd69183"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/bbd82926-fd28-4fb7-938b-51f35dd69183"
             }
           ]
         }
@@ -480,7 +480,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/588eda4e-ad18-4104-812e-d9223e8c02cb"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/588eda4e-ad18-4104-812e-d9223e8c02cb"
             },
             {
               "name": "biome_border",
@@ -488,7 +488,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },   
             {
               "name": "states_caatinga_biome",
@@ -496,7 +496,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },     
             {
               "name": "municipalities_caatinga_biome",
@@ -504,7 +504,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },
             {
               "name": "hydrography",
@@ -512,7 +512,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/4c0e3e3d-cb7b-48f1-93e7-cfb2d3c836dd"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/4c0e3e3d-cb7b-48f1-93e7-cfb2d3c836dd"
             },
             {
               "name": "yearly_deforestation",
@@ -535,7 +535,7 @@
                 "2021",
                 "2022"
               ],
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/6f585e6e-dae3-4a5b-b744-7c24dedf67ed"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/6f585e6e-dae3-4a5b-b744-7c24dedf67ed"
             },   
             {
               "name": "temporal_mosaic_caatinga",
@@ -559,7 +559,7 @@
                 "2021",
                 "2022"
               ],
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/8640b278-a6b1-45c9-a5de-032bd3f8b9b5"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/8640b278-a6b1-45c9-a5de-032bd3f8b9b5"
             }
           ]
         }
@@ -577,7 +577,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/49668005-8fc0-4d3f-9a7b-267aee14d1ff"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/49668005-8fc0-4d3f-9a7b-267aee14d1ff"
             },
             {
               "name": "biome_border",
@@ -585,7 +585,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },  
             {
               "name": "states_mata_atlantica_biome",
@@ -593,7 +593,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },     
             {
               "name": "municipalities_mata_atlantica_biome",
@@ -601,7 +601,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
             },
             {
               "name": "hydrography",
@@ -609,7 +609,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/47bb3fa5-e60a-4afd-ba78-29de35223944"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/47bb3fa5-e60a-4afd-ba78-29de35223944"
             },
             {
               "name": "yearly_deforestation",
@@ -632,7 +632,7 @@
                 "2021",
                 "2022"
               ],
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/2b439f5a-b53d-4d56-9937-99026a205e9e"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/2b439f5a-b53d-4d56-9937-99026a205e9e"
             },   
             {
               "name": "temporal_mosaic_mata_atlantica",
@@ -656,7 +656,7 @@
                 "2021",
                 "2022"
               ],
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a00ecfa8-6243-408c-a157-dfaf27104d94"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a00ecfa8-6243-408c-a157-dfaf27104d94"
             }
           ]
         }
@@ -674,7 +674,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/415220fc-3013-4258-bd21-83014865cee5"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/415220fc-3013-4258-bd21-83014865cee5"
             },
             {
               "name": "brazilian_legal_amazon",
@@ -682,7 +682,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d6289e13-c6f3-4103-ba83-13a8452d46cb"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d6289e13-c6f3-4103-ba83-13a8452d46cb"
             },
             {
               "name": "cloud",
@@ -698,7 +698,7 @@
                 "2021",
                 "2022"  
               ],
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d6f8da09-5c6c-417b-bfac-769c010e9769"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d6f8da09-5c6c-417b-bfac-769c010e9769"
             },
             {
               "name": "forest",
@@ -713,7 +713,7 @@
                 "2020",
                 "2021"  
               ],
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/dd31e0cb-0b36-4441-9f4a-a4a896bfae70"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/dd31e0cb-0b36-4441-9f4a-a4a896bfae70"
             },
             {
               "name": "hydrography",
@@ -721,7 +721,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d18f51fd-f7fa-4e22-a6c3-485a06a29276"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d18f51fd-f7fa-4e22-a6c3-485a06a29276"
             },
             {
               "name": "no_forest",
@@ -729,7 +729,7 @@
               "crs": 4674,
               "hasTime": false,
               "times": null,
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/ab81b88d-b089-4d0f-8185-e34cbfb52464"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/ab81b88d-b089-4d0f-8185-e34cbfb52464"
             },
             {
               "name": "yearly_deforestation",
@@ -753,7 +753,7 @@
                 "2021",
                 "2022"  
               ],
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a5220c18-f7fa-4e3e-b39b-feeb3ccc4830"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a5220c18-f7fa-4e3e-b39b-feeb3ccc4830"
             },
             {
               "name": "temporal_mosaic_legal_amazon",
@@ -786,7 +786,7 @@
                 "2022",
                 "2023"
               ],
-              "metadata": "http://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/243cec4a-0ef5-453b-b8d4-f10a38ed044e"
+              "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/243cec4a-0ef5-453b-b8d4-f10a38ed044e"
             }
           ]
         }
