@@ -27,6 +27,7 @@ FILE_NAME="terrabrasilis_datasource-${TAG_VERSION}"
 mkdir "${FILE_NAME}"
 
 cp -a src/* "${FILE_NAME}/"
+cp -a README.md "${FILE_NAME}/"
 
 zip -r ${FILE_NAME}.zip "${FILE_NAME}" \
 -x "${FILE_NAME}/pb_tool.cfg" \
