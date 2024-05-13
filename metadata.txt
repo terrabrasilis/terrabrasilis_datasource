@@ -7,7 +7,7 @@ name=TerraBrasilis Data Source
 qgisMinimumVersion=3.0
 description=The QGIS plugin provides access to the WMS services of the Spatial Data Infrastructure TerraBrasilis.
 version=0.2
-author=Adeline Maciel, National Institute for Space Research (INPE)
+author=INPE - Brazil's National Institute for Space Research
 email=adeline.maciel@inpe.br
 
 about=The QGIS plugin provides access to the WMS services of the Spatial Data Infrastructure TerraBrasilis. From the TerraBrasilis Data Source, select the project name and desired layer, and it will be possible to access the layer metadata and added the layer to the canvas. The layers are provided via WMS which requires an active internet connection. 
@@ -20,10 +20,10 @@ repository=https://github.com/terrabrasilis/terrabrasilis_datasource
 
 hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
-# changelog=
+changelog=https://github.com/terrabrasilis/terrabrasilis_datasource/releases
 
 # Tags are comma separated with spaces allowed
-tags=python, WMS, deforestation
+tags=INPE, deforestation, brazil, TerraBrasilis, WMS
 
 homepage=https://github.com/terrabrasilis/terrabrasilis_datasource
 category=Plugins
@@ -40,7 +40,7 @@ deprecated=False
 # plugin_dependencies=
 
 Category of the plugin: Raster, Vector, Database or Web
-# category=
+category=Web
 
 # If the plugin can run on QGIS Server.
 server=False
