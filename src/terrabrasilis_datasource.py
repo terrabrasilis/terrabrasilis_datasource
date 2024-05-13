@@ -323,7 +323,6 @@ class TerraBrasilisDataSource:
         self.dlg.textEdit.clear()
         
         # read file from githut
-        # myjson = open('/home/user/.local/share/QGIS/QGIS3/profiles/default/python/plugins/terrabrasilis_datasource/data/geoserver_terrabrasilis_info.json')
         url_json = 'https://raw.githubusercontent.com/terrabrasilis/terrabrasilis_datasource/main/data/geoserver_terrabrasilis_info.json'
         #file_folder = os.path.join(os.path.expanduser("~"), "geoserver_terrabrasilis_info.json")
         resp = requests.get(url_json)
