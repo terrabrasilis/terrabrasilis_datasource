@@ -2,7 +2,7 @@
 
 The QGIS plugin provides access to the WMS services of the Spatial Data Infrastructure TerraBrasilis. From the TerraBrasilis Data Source, select the project name and desired layer, and it will be possible to access the layer metadata and added the layer to the canvas. The layers are provided via WMS which requires an active internet connection.
 
-![preview](res/preview.PNG)
+![preview](src/res/preview.PNG)
 
 # Getting Started
 
@@ -29,12 +29,22 @@ The QGIS plugin provides access to the WMS services of the Spatial Data Infrastr
 
 Once you have installed and enabled the plugin TerraBrasilis Data Source, it can be accessed via the toolbar or the menu **Plugins**. The main dialog contains a **Project name** with the projects separated by biomes, and **Layer name**, that dynamic refresh layers names according to the Project name combo box. When switch between layer names is enabled a **Metadata Link**, that contains a link to see information about the layer. Use **Add** button to add the geospatial map image within the current canvas.
 
-![how-use](res/how_to_use_this_plugin.gif)
+![how-use](src/res/how_to_use_this_plugin.gif)
 
 ## Development
 
 1. Clone this repository.
 2. Build the plugin by running `QGIS Plugin Builder`.
+
+### Simple changes and redeployment?
+
+If you make some simple changes that don't require a complete rebuild, simply generate a package again using the steps below.
+
+ - Commit your changes;
+ - Create a new tag version, like: v1.2.3 or 1.2.3;
+ - Run the "zip_to_deploy.sh" script to create a ZIP package to send to the QGIS plugin repository*;
+
+ > *You will need an OSGeo Services UserID to achieve this.
 
 ## License
 
