@@ -21,19 +21,20 @@ NEW_VERSION="version=${TAG_VERSION}"
 # change version into metadata.txt
 sed -i "s/${CUR_VERSION}/${NEW_VERSION}/g" "./src/metadata.txt"
 
-FILE_NAME="terrabrasilis_datasource-${TAG_VERSION}"
+DIR_NAME="terrabrasilis_datasource"
+FILE_NAME="${DIR_NAME}-${TAG_VERSION}"
 
-mkdir "${FILE_NAME}"
+mkdir "${DIR_NAME}"
 
-cp -a src/* "${FILE_NAME}/"
-cp -a README.md "${FILE_NAME}/"
+cp -a src/* "${DIR_NAME}/"
+cp -a README.md "${DIR_NAME}/"
 
-zip -r ${FILE_NAME}.zip "${FILE_NAME}" \
--x "${FILE_NAME}/pb_tool.cfg" \
-"${FILE_NAME}/Makefile" \
-"${FILE_NAME}/pylintrc" \
-"${FILE_NAME}/test/*" \
-"${FILE_NAME}/scripts/*" \
-"${FILE_NAME}/res/*"
+zip -r ${FILE_NAME}.zip "${DIR_NAME}" \
+-x "${DIR_NAME}/pb_tool.cfg" \
+"${DIR_NAME}/Makefile" \
+"${DIR_NAME}/pylintrc" \
+"${DIR_NAME}/test/*" \
+"${DIR_NAME}/scripts/*" \
+"${DIR_NAME}/res/*"
 
-rm -rf "${FILE_NAME}"
+rm -rf "${DIR_NAME}"
