@@ -20,7 +20,6 @@ NEW_VERSION="version=${TAG_VERSION}"
 
 # change version into metadata.txt
 sed -i "s/${CUR_VERSION}/${NEW_VERSION}/g" "./src/metadata.txt"
-exit
 
 FILE_NAME="terrabrasilis_datasource-${TAG_VERSION}"
 
