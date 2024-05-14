@@ -42,9 +42,17 @@ If you make some simple changes that don't require a complete rebuild, simply ge
 
  - Commit your changes;
  - Create a new tag version, like: v1.2.3 or 1.2.3;
- - Run the "zip_to_deploy.sh" script to create a ZIP package to send to the QGIS plugin repository*;
+ - Run the "zip_to_deploy.sh" script to create a ZIP package to send to the QGIS plugin repository;
+ - Login* into the QGIS plugin repository: https://plugins.qgis.org/;
+ - Upload** a ZIP package using the wizard at: https://plugins.qgis.org/plugins/terrabrasilis_datasource/;
 
- > *You will need an OSGeo Services UserID to achieve this.
+ > *You will need an OSGeo UserID to achieve this.
+ > **The author must add their OSGeo UserID as a Contributor in the plugin repository to allow the upload a new version.
+
+### References
+
+https://docs.qgis.org/3.34/en/docs/pyqgis_developer_cookbook/plugins/plugins.html
+
 
 ## License
 
