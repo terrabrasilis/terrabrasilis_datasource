@@ -7,10 +7,9 @@ name=TerraBrasilis Data Source
 qgisMinimumVersion=3.0
 description=The QGIS plugin provides access to the WMS services of the Spatial Data Infrastructure TerraBrasilis.
 version=1.0.0
-author=INPE - Brazil's National Institute for Space Research
-email=adeline.maciel@inpe.br
-
-about=The QGIS plugin provides access to the WMS services of the Spatial Data Infrastructure TerraBrasilis. From the TerraBrasilis Data Source, select the project name and desired layer, and it will be possible to access the layer metadata and added the layer to the canvas. The layers are provided via WMS which requires an active internet connection. 
+author=André Carvalho, INPE - Brazil's National Institute for Space Research (contributor and actual maintainer)
+email=andre.carvalho@inpe.br
+about=Thanks to Adeline Maciel (original author), André Carvalho (contributor and actual maintainer)
 
 tracker=https://github.com/terrabrasilis/terrabrasilis_datasource/issues
 repository=https://github.com/terrabrasilis/terrabrasilis_datasource
