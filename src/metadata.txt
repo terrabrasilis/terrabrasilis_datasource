@@ -9,7 +9,7 @@ description=The QGIS plugin provides access to the WMS services of the Spatial D
 version=1.0.0
 author=André Carvalho, INPE - Brazil's National Institute for Space Research (contributor and actual maintainer)
 email=andre.carvalho@inpe.br
-about=Thanks to Adeline Maciel (original author), André Carvalho (contributor and actual maintainer)
+about=Thanks to Adeline Maciel (original author), André Carvalho (contributor and actual maintainer). The QGIS plugin provides access to the WMS services of the Spatial Data Infrastructure TerraBrasilis. From the TerraBrasilis Data Source, select the project name and desired layer, and it will be possible to access the layer metadata and added the layer to the canvas. The layers are provided via WMS which requires an active internet connection.
 
 tracker=https://github.com/terrabrasilis/terrabrasilis_datasource/issues
 repository=https://github.com/terrabrasilis/terrabrasilis_datasource
@@ -19,10 +19,10 @@ repository=https://github.com/terrabrasilis/terrabrasilis_datasource
 
 hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
-changelog=https://github.com/terrabrasilis/terrabrasilis_datasource/releases
+changelog=The main change is the TerraBrasilis base URL from HTTP to HTTPS. Other small changes can be found at: https://github.com/terrabrasilis/terrabrasilis_datasource/compare/v0.2.0...v1.0.0
 
 # Tags are comma separated with spaces allowed
-tags=INPE, deforestation, brazil, TerraBrasilis, WMS
+tags=INPE, PRODES, deforestation, brazil, TerraBrasilis, WMS
 
 homepage=https://github.com/terrabrasilis/terrabrasilis_datasource
 category=Plugins
