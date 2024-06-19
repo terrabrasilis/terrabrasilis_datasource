@@ -33,7 +33,7 @@
         "layer": [
           {
             "name": "accumulated_deforestation_2000",
-            "title": "Accumulated Deforestation in the Cerrado until 2000",
+            "title": "Accumulated deforestation in the Cerrado until 2000",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -41,7 +41,7 @@
           },
           {
             "name": "biome_border",
-            "title": "Brazilian Cerrado Biome Border",
+            "title": "Brazilian Cerrado biome Border",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -49,7 +49,7 @@
           },
           {
             "name": "states_cerrado_biome",
-            "title": "Brazilian states in the Cerrado Biome",
+            "title": "Brazilian states in the Cerrado biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -57,7 +57,7 @@
           },
           {
             "name": "municipalities_cerrado_biome",
-            "title": "Municipalities of the Cerrado Biome",
+            "title": "Municipalities of the Cerrado biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -65,7 +65,7 @@
           },
           {
             "name": "hydrography",
-            "title": "Hydrography data of the Cerrado Biome",
+            "title": "Hydrography data of the Cerrado biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -73,7 +73,7 @@
           },
           {
             "name": "yearly_deforestation",
-            "title": "Yearly Deforestation in the Cerrado Biome",
+            "title": "yearly deforestation in the Cerrado biome",
             "crs": 4674,
             "hasTime": true,
             "times": [
@@ -99,7 +99,7 @@
           },
           {
             "name": "temporal_mosaic_cerrado",
-            "title": "Image Mosaic Cerrado Biome",
+            "title": "Image Mosaic Cerrado biome",
             "crs": 4326,
             "hasTime": true,
             "times": [
@@ -136,7 +136,7 @@
         "layer": [
           {
             "name": "accumulated_deforestation_2007_biome",
-            "title": "Accumulated Deforestation in Amazon Biome - 2007",
+            "title": "Accumulated deforestation in Amazon biome - 2007",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -144,7 +144,7 @@
           },
           {
             "name": "amazon_biome_border",
-            "title": "Brazilian Amazon Biome Border",
+            "title": "Brazilian Amazon biome Border",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -152,7 +152,7 @@
           },
           {
             "name": "states_amazon_biome",
-            "title": "States Amazon Biome",
+            "title": "States Amazon biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -160,7 +160,7 @@
           },
           {
             "name": "municipalities_amazon_biome",
-            "title": "Municipalities Amazon Biome",
+            "title": "Municipalities Amazon biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -201,7 +201,7 @@
           },
           {
             "name": "hydrography_biome",
-            "title": "Hydrography data of the Amazonia Biome",
+            "title": "Hydrography data of the Amazonia biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -217,7 +217,7 @@
           },
           {
             "name": "yearly_deforestation_biome",
-            "title": "Amazon Biome Yearly Deforestation since 2008",
+            "title": "Amazon biome yearly deforestation since 2008",
             "crs": 4674,
             "hasTime": true,
             "times": [
@@ -242,7 +242,7 @@
           },
           {
             "name": "temporal_mosaic_amz_biome",
-            "title": "Image Mosaic Amazon Biome",
+            "title": "Image Mosaic Amazon biome",
             "crs": 4326,
             "hasTime": true,
             "times": [
@@ -277,7 +277,7 @@
         "layer": [
           {
             "name": "accumulated_deforestation_2000",
-            "title": "Accumulated Deforestation in Pampa biome - 2000",
+            "title": "Accumulated deforestation in Pampa biome - 2000",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -285,7 +285,7 @@
           },
           {
             "name": "biome_border",
-            "title": "Pampa Biome Border",
+            "title": "Pampa biome Border",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -293,7 +293,7 @@
           },
           {
             "name": "states_pampa_biome",
-            "title": "States Pampa Biome",
+            "title": "States Pampa biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -301,7 +301,7 @@
           },
           {
             "name": "municipalities_pampa_biome",
-            "title": "Municipalities Pampa Biome",
+            "title": "Municipalities Pampa biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -309,7 +309,7 @@
           },
           {
             "name": "hydrography",
-            "title": "Hydrography data of the Pampa Biome",
+            "title": "Hydrography data of the Pampa biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -317,7 +317,7 @@
           },
           {
             "name": "yearly_deforestation",
-            "title": "Pampa Biome Yearly Deforestation (Since 2004)",
+            "title": "Pampa biome yearly deforestation (Since 2004)",
             "crs": 4674,
             "hasTime": true,
             "times": [
@@ -340,7 +340,7 @@
           },
           {
             "name": "temporal_mosaic_pampa",
-            "title": "Image Mosaic Pampa Biome",
+            "title": "Image Mosaic Pampa biome",
             "crs": 4674,
             "hasTime": true,
             "times": [
@@ -374,7 +374,7 @@
         "layer": [
           {
             "name": "accumulated_deforestation_2000",
-            "title": "Accumulated Deforestation in Pantanal biome - 2000",
+            "title": "Accumulated deforestation in Pantanal biome - 2000",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -382,7 +382,7 @@
           },
           {
             "name": "biome_border",
-            "title": "Pantanal Biome Border",
+            "title": "Pantanal biome Border",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -390,7 +390,7 @@
           },
           {
             "name": "states_pantanal_biome",
-            "title": "States Pantanal Biome",
+            "title": "States Pantanal biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -398,7 +398,7 @@
           },
           {
             "name": "municipalities_pantanal_biome",
-            "title": "Municipalities Pantanal Biome",
+            "title": "Municipalities Pantanal biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -406,7 +406,7 @@
           },
           {
             "name": "hydrography",
-            "title": "Hydrography data of the Pantanal Biome",
+            "title": "Hydrography data of the Pantanal biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -414,7 +414,7 @@
           },
           {
             "name": "yearly_deforestation",
-            "title": "Pantanal Biome Yearly Deforestation since 2004",
+            "title": "Pantanal biome yearly deforestation since 2004",
             "crs": 4674,
             "hasTime": true,
             "times": [
@@ -438,7 +438,7 @@
           },
           {
             "name": "temporal_mosaic_pantanal",
-            "title": "Image Mosaic Pantanal Biome",
+            "title": "Image Mosaic Pantanal biome",
             "crs": 4674,
             "hasTime": true,
             "times": [
@@ -473,7 +473,7 @@
         "layer": [
           {
             "name": "accumulated_deforestation_2000",
-            "title": "Accumulated Deforestation in Caatinga biome - 2000",
+            "title": "Accumulated deforestation in Caatinga biome - 2000",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -481,7 +481,7 @@
           },
           {
             "name": "biome_border",
-            "title": "Caatinga Biome Border",
+            "title": "Caatinga biome Border",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -489,7 +489,7 @@
           },
           {
             "name": "states_caatinga_biome",
-            "title": "States Caatinga Biome",
+            "title": "States Caatinga biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -497,7 +497,7 @@
           },
           {
             "name": "municipalities_caatinga_biome",
-            "title": "Municipalities Caatinga Biome",
+            "title": "Municipalities Caatinga biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -505,7 +505,7 @@
           },
           {
             "name": "hydrography",
-            "title": "Hydrography data of the Caatinga Biome",
+            "title": "Hydrography data of the Caatinga biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -513,7 +513,7 @@
           },
           {
             "name": "yearly_deforestation",
-            "title": "Caatinga Biome Yearly Deforestation since 2004",
+            "title": "Caatinga biome yearly deforestation since 2004",
             "crs": 4674,
             "hasTime": true,
             "times": [
@@ -536,7 +536,7 @@
           },
           {
             "name": "temporal_mosaic_caatinga",
-            "title": "Image Mosaic Caatinga Biome",
+            "title": "Image Mosaic Caatinga biome",
             "crs": 4326,
             "hasTime": true,
             "times": [
@@ -570,7 +570,7 @@
         "layer": [
           {
             "name": "accumulated_deforestation_2000",
-            "title": "Accumulated Deforestation in Mata Atl\u00e2ntica biome - 2000",
+            "title": "Accumulated deforestation in Mata Atl\u00e2ntica biome - 2000",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -578,7 +578,7 @@
           },
           {
             "name": "biome_border",
-            "title": "Mata Atl\u00e2ntica Biome Border",
+            "title": "Mata Atl\u00e2ntica biome Border",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -586,7 +586,7 @@
           },
           {
             "name": "states_mata_atlantica_biome",
-            "title": "States Mata Atl\u00e2ntica Biome",
+            "title": "States Mata Atl\u00e2ntica biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -594,7 +594,7 @@
           },
           {
             "name": "municipalities_mata_atlantica_biome",
-            "title": "Municipalities Mata Atl\u00e2ntica Biome",
+            "title": "Municipalities Mata Atl\u00e2ntica biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -602,7 +602,7 @@
           },
           {
             "name": "hydrography",
-            "title": "Hydrography data of the Mata Atl\u00e2ntica Biome",
+            "title": "Hydrography data of the Mata Atl\u00e2ntica biome",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -610,7 +610,7 @@
           },
           {
             "name": "yearly_deforestation",
-            "title": "Mata Atl\u00e2ntica Biome Yearly Deforestation since 2004",
+            "title": "Mata Atl\u00e2ntica biome yearly deforestation since 2004",
             "crs": 4674,
             "hasTime": true,
             "times": [
@@ -633,7 +633,7 @@
           },
           {
             "name": "temporal_mosaic_mata_atlantica",
-            "title": "Image Mosaic Mata Atl\u00e2ntica Biome",
+            "title": "Image Mosaic Mata Atl\u00e2ntica biome",
             "crs": 4326,
             "hasTime": true,
             "times": [
@@ -667,7 +667,7 @@
         "layer": [
           {
             "name": "accumulated_deforestation_2007",
-            "title": "Accumulated Deforestation until 2007",
+            "title": "Accumulated deforestation until 2007",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -732,7 +732,7 @@
           },
           {
             "name": "yearly_deforestation",
-            "title": "Legal Amazon Yearly Deforestation since 2008",
+            "title": "Legal Amazon yearly deforestation since 2008",
             "crs": 4674,
             "hasTime": true,
             "times": [
