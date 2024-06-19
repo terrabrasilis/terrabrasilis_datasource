@@ -246,7 +246,6 @@
             "crs": 4326,
             "hasTime": true,
             "times": [
-              "1980",
               "2000",
               "2002",
               "2004",
@@ -263,7 +262,7 @@
               "2022",
               "2023"
             ],
-            "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+            "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/por/catalog.search#/metadata/dea6180e-16af-41cb-aaca-d85051ff60fa"
           }
         ]
       }
