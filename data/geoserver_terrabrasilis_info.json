@@ -267,6 +267,40 @@
         ]
       }
     ]
+  },    
+  {
+    "workspace": [
+      {
+        "biome_name": "Prodes Amazonia for non-forest areas", 
+        "name": "prodes-amazon-nb",
+        "layer": [
+          {
+            "name": "temporal_mosaic_amazon_nf",
+            "title": "Image mosaic for non-forest areas in the Amazon biome",
+            "crs": 4326,
+            "hasTime": true,
+            "times": [
+                "1980",
+                "2000",
+                "2002",
+                "2004",
+                "2006",
+                "2008",
+                "2010",
+                "2013",
+                "2014",
+                "2016",
+                "2018",
+                "2019",
+                "2020",
+                "2021",
+                "2022"
+            ],
+            "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/home"
+          }
+        ]
+      }
+    ]
   },
   {
     "workspace": [
