@@ -15,7 +15,7 @@
           },
           {
             "name": "prodes_brasil",
-            "title": "PRODES for all biomes in Brazil by 2022",
+            "title": "PRODES for all biomes in Brazil by 2023",
             "crs": 4674,
             "hasTime": false,
             "times": null,
@@ -368,7 +368,8 @@
               "2019",
               "2020",
               "2021",
-              "2022"
+              "2022",
+              "2023"
             ],
             "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a551570c-78a2-45b3-95e8-0e518fbce941"
           },
@@ -392,7 +393,8 @@
               "2019",
               "2020",
               "2021",
-              "2022"
+              "2022",
+              "2023"
             ],
             "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/0e1faf56-bcfd-4786-adcc-c9c2b5fa6607"
           }
@@ -564,7 +566,8 @@
               "2019",
               "2020",
               "2021",
-              "2022"
+              "2022",
+              "2023"
             ],
             "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/6f585e6e-dae3-4a5b-b744-7c24dedf67ed"
           },
@@ -588,7 +591,8 @@
               "2019",
               "2020",
               "2021",
-              "2022"
+              "2022",
+              "2023"
             ],
             "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/8640b278-a6b1-45c9-a5de-032bd3f8b9b5"
           }
