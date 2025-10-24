@@ -94,7 +94,8 @@
               "2021",
               "2022",
               "2023",
-              "2024"
+              "2024",
+              "2025"
             ],
             "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/6b621182-93d6-4a83-b5db-ae53a621276d"
           },
@@ -169,39 +170,6 @@
             "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/94002b1c-d537-4140-a0ef-f5c84e219a62"
           },
           {
-            "name": "cloud_biome",
-            "title": "Cloud since 2016",
-            "crs": 4674,
-            "hasTime": true,
-            "times": [
-              "2016",
-              "2017",
-              "2018",
-              "2019",
-              "2020",
-              "2021",
-              "2022",
-              "2023"
-            ],
-            "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/57087018-9cec-4eed-822c-c850b35e5242"
-          },
-          {
-            "name": "forest_biome",
-            "title": "Forest since 2016",
-            "crs": 4674,
-            "hasTime": true,
-            "times": [
-              "2016",
-              "2017",
-              "2018",
-              "2019",
-              "2020",
-              "2021",
-              "2022"
-            ],
-            "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/e7523c17-8570-4da6-ab41-f7fb62d7b86b"
-          },
-          {
             "name": "hydrography_biome",
             "title": "Hydrography data of the Amazonia biome",
             "crs": 4674,
@@ -238,7 +206,8 @@
               "2020",
               "2021",
               "2022",
-              "2023"
+              "2023",
+              "2024"
             ],
             "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/b75b83db-8026-43f9-9537-ee1dfa308158"
           },
@@ -750,39 +719,6 @@
             "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d6289e13-c6f3-4103-ba83-13a8452d46cb"
           },
           {
-            "name": "cloud",
-            "title": "Cloud since 2016",
-            "crs": 4674,
-            "hasTime": true,
-            "times": [
-              "2016",
-              "2017",
-              "2018",
-              "2019",
-              "2020",
-              "2021",
-              "2022",
-              "2023"
-            ],
-            "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/d6f8da09-5c6c-417b-bfac-769c010e9769"
-          },
-          {
-            "name": "forest",
-            "title": "Forest since 2016",
-            "crs": 4674,
-            "hasTime": true,
-            "times": [
-              "2016",
-              "2017",
-              "2018",
-              "2019",
-              "2020",
-              "2021",
-              "2022"
-            ],
-            "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/dd31e0cb-0b36-4441-9f4a-a4a896bfae70"
-          },
-          {
             "name": "hydrography",
             "title": "Hydrographic data of the Legal Amazonia",
             "crs": 4674,
@@ -819,7 +755,8 @@
               "2020",
               "2021",
               "2022",
-              "2023"
+              "2023",
+              "2024"
             ],
             "metadata": "https://terrabrasilis.dpi.inpe.br/geonetwork/srv/eng/catalog.search#/metadata/a5220c18-f7fa-4e3e-b39b-feeb3ccc4830"
           },
